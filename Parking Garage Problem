@@ -1,0 +1,7 @@
+for hour in range(1,9):
+  total = (5+hour*2.5)
+  if total < 10:
+    total=(10)
+  elif total > 20:
+    total = (20)
+  print(hour, total)
